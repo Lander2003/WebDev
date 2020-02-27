@@ -1,0 +1,225 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Libre Caslon Text', serif;
+  overflow-x: hidden;
+}
+
+h1, h2, h3{
+  font-family: 'Century Gothic', sans-serif;
+  font-weight: bold;
+}
+
+
+/* Utilities */
+
+.btn-custom{
+  border: none;
+  padding: 10px 27px;
+  background-color: #ffb75f;
+  font-family: 'Century Gothic', sans-serif;
+  transition: .2s background-color ease;
+}
+
+.btn-custom:hover{
+ background-color: #ffa333;
+}
+
+
+hr{
+  border: solid 3px #e47e00 ;
+  width: 70px;
+}
+
+
+/* Icons */
+
+.fab, .fas{
+  color: #d87700;
+  margin-bottom: 20px;
+}
+
+/* Navbar */
+
+nav{
+  box-shadow: 5px 1px 10px #797979;
+  background-color: #e6e6e6;
+}
+
+.nav-item{
+  padding-right: 20px;
+}
+
+.navbar-brand{
+  color: #e47e00 !important;
+}
+
+/* Header */
+
+#header{
+  background: url('background.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: auto;
+text-align: center;
+padding: 150px 0;
+}
+
+#header h1{
+  font-size: 3.5rem;
+}
+
+
+#header h2{
+  font-size: 3rem;
+  font-weight: normal;
+}
+
+/* Services */
+
+#services{
+  padding: 100px 0;
+  text-align: center;
+}
+
+#services h1{
+  font-size: 3rem;
+}
+
+#services hr{
+  margin-bottom: 70px;
+}
+
+
+.services-box{
+  background-color: #e4e4e4;
+  padding: 30px 20px;
+  background-clip: padding-box;
+  border: 10px solid transparent;
+  transition: .3s border ease, .3s background-color ease;
+}
+
+.services-box:hover{
+    background-color: #ffca9e;
+    border: 5px solid transparent;
+  }
+
+#services a{
+  margin: 0;
+  padding: 0;
+  color: black;
+  display: inline;
+}
+
+#services a:hover{
+  text-decoration: none;
+}
+
+/* Showcase */
+
+#showcase{
+  padding-top: 100px;
+  background-color:#e6e6e6;
+  text-align: center;
+}
+
+#showcase h2{
+  font-weight: normal;
+}
+
+#showcase hr{
+  margin-bottom: 60px;
+}
+
+
+.showcase-img{
+  margin-bottom: 100px;
+}
+
+.showcase-box{
+  padding: 50px 20px;
+}
+
+/* Photography */
+
+#photography{
+  text-align: center;
+  padding: 120px 0;
+}
+
+#photography hr{
+  margin-bottom: 50px;
+}
+
+#photography h2{
+  font-weight: normal;
+}
+
+#photography img{
+  margin-bottom: 50px;
+  transition: .3s width ease;
+}
+
+#photography img:hover{
+  width: 95%;
+}
+
+/* Portfolio */
+
+#portfolio{
+  padding-top: 100px;
+  background-color: #e6e6e6;
+  text-align: center;
+}
+
+#portfolio img{
+  margin-bottom: 50px;
+  transition: .3s width ease;
+}
+
+#portfolio img:hover{
+  width: 95%;
+}
+
+#portfolio h1{
+  font-size: 3rem;
+}
+
+#portfolio hr{
+  margin-bottom: 50px;
+}
+
+/* Contact */
+
+#contact{
+  padding: 120px 0;
+  text-align: center;
+}
+
+#contact h2{
+  font-weight: normal;
+}
+
+/* Footer */
+
+footer{
+  padding: 60px 0 50px;
+  background-color: #ffd7a7;
+  text-align: center;
+  font-family: 'Century Gothic', serif;
+}
+
+footer a{
+  display: block;
+  margin-bottom: 10px;
+  color: black;
+  transition: .2s color ease;
+}
+
+footer a:hover{
+  text-decoration: none;
+  color: #e47e00;
+}
